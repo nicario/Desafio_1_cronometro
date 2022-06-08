@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 50%;
+  background-color: rgb(49, 151, 71);
+}
+
+h1 {
+  color: white;
+}
+
+.form {
+  box-sizing: border-box;
+  background-color: rgb(52, 39, 112);
+  padding: 100px;
+}
+
+.cronometro {
+  font-size: 50px;
+  color: red
+}
+
+.iniciar,
+.parar,
+.resetar {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.iniciar:hover,
+.parar:hover,
+.resetar:hover {
+  background-color: #ffc107;
+}
+
+.iniciar:active,
+.parar:active,
+.resetar:active {
+  background-color: #ff0707;
+}
